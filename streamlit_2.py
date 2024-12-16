@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(layout="wide", page_title="대한민국 인구 대시보드", page_icon="🌏")
 
 # 데이터셋 불러오기
-df = pd.read_csv('DataSet/201412_202312_korea_population_year_preprocessed.csv')
+df = pd.read_csv('201412_202312_korea_population_year_preprocessed.csv')
 
 # JSON 파일 불러오기
 with open('korea_map.json', encoding="UTF-8") as f:
